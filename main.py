@@ -88,10 +88,10 @@ def extract(filename):
 
 def Main():
     while(True):
-        targetFile = input('Enter a target file')
-        mode = input('Enter e for encode, d for decode')
+        targetFile = input('Enter a target file ')
+        mode = input('Enter e for encode, d for decode ')
         if(mode == 'e'):
-            text = input('Enter a message to hide')
+            text = input('Enter a message to hide ')
             embed(targetFile, text)
         elif(mode == 'd'):
             print(extract(targetFile))
